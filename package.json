@@ -1,0 +1,10 @@
+{
+  "name": "pritam-bej-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pritam Bej — cinematic developer portfolio (static site, no build step)",
+  "scripts": {
+    "start": "python -m http.server 8080",
+    "start:node": "npx --yes serve . -l 8080"
+  }
+}
